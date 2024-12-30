@@ -1,0 +1,15 @@
+{
+  "name": "pokemon-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "sass": "^1.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile" : "sass main.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
