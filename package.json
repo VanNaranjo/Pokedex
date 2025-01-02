@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile" : "sass main.scss style.css"
+    "compile" : "sass main.scss style.css",
+    "watch" : "sass --watch main.scss:style.css"
   },
   "author": "",
   "license": "ISC"

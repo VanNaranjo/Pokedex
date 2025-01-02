@@ -1,14 +1,21 @@
-h1 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
-    color: gold;
+header, section, nav, main, footer, aside {
+    display: block;
 }
 
 body {
-    background-color: darkgreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-align: center;
+    margin: 0px;
+    background-color: #A7DED8;
+}
+
+header{
+    background-color: #5DC1DE;
+    & h1{
+        margin: 0px;
+        padding: 10px;
+    }
 }
 
 .field-container {
@@ -38,6 +45,24 @@ body {
     border: 2px solid white;
     padding: 10px;
     box-shadow: 0px 0px 20px 5px black;
-    background-color: darkgreen;
+    background-color: #5DDEA5;
     border-radius: 8px;
+}
+
+nav{
+    padding: 10px;
+
+    & ul{
+        list-style: none;
+
+        & li{
+            display: inline-block;
+            padding: 0px 20px 0 0;
+
+            & a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
 }
