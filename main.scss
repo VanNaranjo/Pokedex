@@ -18,21 +18,70 @@ header{
     }
 }
 
-.field-container {
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 80px;
-    border-radius: 10px;
-    font-weight: bold;
+.content{
+    display: flex;
+    justify-content: center;
+
+    & .container{
+        border: 2px solid black;
+        margin: 0px 20px 0px 20px;
+
+        & .field-container {
+            width: 200px;
+            height: 50px;
+            margin: 0 auto;
+            padding: 80px;
+            border-radius: 10px;
+            font-weight: bold;
+            
+            & label, & #pokemondId2{
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    }   
+
+    & .container2{
+        border: 2px solid black;
+        margin: 0px 20px 0px 20px;
+
+        & .field-container2 {
+            width: 200px;
+            height: 50px;
+            margin: 0 auto;
+            padding: 80px;
+            border-radius: 10px;
+            font-weight: bold;
+            
+            & label, & #pokemondId2{
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    } 
+
+    & .content-pokedex{
+        border: 2px solid black;
+
+        & .field-content{
+            width: 200px;
+            height: 50px;
+            margin: 0 auto;
+            padding: 80px;
+            border-radius: 10px;
+            font-weight: bold;
+            
+            & label, & input{
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+
+    }
+
 }
 
-.field-container label, .field-container input {
-    font-size: 14px;
-    padding: 10px;
-}
-
-.button {
+.button, .button2 {
     background-color: grey;
     color: white;
     padding: 20px 30px;
